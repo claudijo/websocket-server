@@ -26,6 +26,7 @@
     "index.js"
   ],
   "directories": {
-    "test": "test"
+    "test": "./test",
+    "lib": "./lib"
   }
 }
