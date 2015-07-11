@@ -7,6 +7,10 @@
     "test": "./node_modules/mocha/bin/mocha --check-leaks --reporter spec --bail",
     "test-cov": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudijo/websocket-server.git"
+  },
   "author": "Claudijo Borovic",
   "license": "MIT",
   "dependencies": {
@@ -16,5 +20,12 @@
   "devDependencies": {
     "istanbul": "^0.3.17",
     "mocha": "^2.2.5"
+  },
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "directories": {
+    "test": "test"
   }
 }
