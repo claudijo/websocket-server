@@ -1,6 +1,6 @@
 {
   "name": "websocket-server",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Websocket server including room abstraction.",
   "main": "index.js",
   "scripts": {
